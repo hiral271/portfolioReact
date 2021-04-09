@@ -16,8 +16,8 @@ const Home = () => (
 <div>
   <div className='home'>
 
-    <h1>Well Come !!! </h1>
-    <p>My name is Hiral</p>
+    <h1>Hello !!! </h1>
+    <p>Welcome to My World</p>
    
      
     </div>  

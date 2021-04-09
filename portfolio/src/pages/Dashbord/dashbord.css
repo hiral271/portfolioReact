@@ -12,9 +12,9 @@
 
     font-weight: bolder;
 }
-#aboutme{
-    margin-left: 40px;
-   width: 50%;
+.aboutme{
+    /* margin-left: 100px;
+   width: 40%;
     display:flex;
     justify-content: center;
     align-items: center;
@@ -22,6 +22,10 @@
     text-align: center;
     /* background-position:right;
     background-image: url("../images/81-812661_free-watercolor-flower-texture-peach-watercolor-flower-png.png"); */
+       padding: 50px;
+       display:flex; 
+       align-items: center;
+       font-size: 23px;
 }
 #me{
   text-align: center;
@@ -32,8 +36,11 @@
     width: 500px;
     height: 400px;
     background-image: url("./Untitled.png");
-    float: right;
-    margin-right: 30px;
+    justify-content: center; 
+    align-items: center;  
+     float: left;
+
+
 }
 p{
     margin-left: 100px;

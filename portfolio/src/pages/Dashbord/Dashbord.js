@@ -24,11 +24,13 @@ const Home = () => (
                             <span id="ok">   - Booker T. Washington</span></p>
 
     </div>
-    <div>
-      <div>
+    <div class="container">
+    <h2 id="me">Some Things - Aboutme </h2>
       <div id="pic"></div>
-        <h2 id="me">Some Things - Aboutme </h2><p>#BornInIndia#Music Lover🎼#Reading is my power📚.</p>
-        <p id="aboutme"> My name is Hiral Mohan Patel. I was born in India . thus i love
+    
+     <p >#BornInIndia#Music Lover🎼#Reading is my power📚.</p>
+        <p class="aboutme">
+           My name is Hiral Mohan Patel. I was born in India . thus i love
         spicy food and
         I am totally bollywood lover.
         my life took sharp turn and i landed in USA. life is been roller coster and i won GED
@@ -37,10 +39,11 @@ const Home = () => (
         creating i found
         coding bootcamp.
         so coding classes was my next stop .
-                                Never give up is my Mantra.</p>
-
-       
-      </div>
+                                Never give up is my Mantra.</p>                        
+                                               
+                     
+      
+    
     </div>
   </div>
 );
