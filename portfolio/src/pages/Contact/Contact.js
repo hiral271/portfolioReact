@@ -13,7 +13,7 @@ const styles = {
 const Contact = () => (
   <div style={styles.contactStyle} >
     <h1>Contact Page</h1>
-    <h2></h2>
+   
   </div>
 );
 

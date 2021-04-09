@@ -2,16 +2,16 @@ import React from "react";
 
 
 const styles = {
-  blogStyle: {
+  projectStyle: {
     background: "#ffeb3b",
     textAlign: "center",
     padding: 50,
   },
   //#ffeb3b
 }
-const Blog = () => (
-  <div style={styles.blogStyle}>
-    <h1>Blog Page</h1>
+const Project = () => (
+  <div style={styles.projectStyle}>
+    <h1>Projects</h1>
     <p>
       Donec a volutpat quam. Curabitur nec varius justo, sed rutrum ligula. Curabitur pellentesque
       turpis sit amet eros iaculis, a mollis arcu dictum. Ut vel ante eget massa ornare placerat.
@@ -27,4 +27,4 @@ const Blog = () => (
   </div>
 );
 
-export default Blog;
+export default Project;

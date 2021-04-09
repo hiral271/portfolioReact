@@ -1,0 +1,36 @@
+.Dashbord{
+    
+    height: 80vh; 
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    text-align: center;
+}
+#ok{
+
+
+    font-weight: bolder;
+}
+#aboutme{
+    margin-left: 40px;
+   width: 50%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    text-align: center;
+    /* background-position:right;
+    background-image: url("../images/81-812661_free-watercolor-flower-texture-peach-watercolor-flower-png.png"); */
+}
+#me{
+  text-align: center;
+  padding: 40px;
+}
+#pic{
+    border-radius: 200px;
+    width: 500px;
+    height: 400px;
+    background-image: url("./Untitled.png");
+    float: right;
+}

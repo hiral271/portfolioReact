@@ -1,16 +1,16 @@
 import React from "react";
+import "./about.css"
+// const styles = {
+//   AboutStyle: {
+//     // background: "#ff9800",
+//     textAlign: "center",
+//     padding: 50,
+//   },
 
-const styles = {
-  AboutStyle: {
-    background: "#ff9800",
-    textAlign: "center",
-    padding: 50,
-  },
-
-}
+// }
 
 const About = () => (
-  <div style={styles.AboutStyle}>
+  <div id="about">
     <h1>About Page</h1>
     <p>
       Nunc pharetra finibus est at efficitur. Praesent sed congue diam. Integer gravida dui mauris,

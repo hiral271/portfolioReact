@@ -9,6 +9,7 @@ const styles = {
     height: 63,
     Color:"#006b76",
     fontSize:25,
+    //#006b76
   },
   
 };
@@ -39,11 +40,11 @@ function NavTabs(props) {
       </li>
       <li className="nav-item">
         <a
-          href="#blog"
-          onClick={() => props.handlePageChange("Blog")}
-          className={props.currentPage === "Blog" ? "nav-link active" : "nav-link"}
+          href="#Project"
+          onClick={() => props.handlePageChange("Project")}
+          className={props.currentPage === "Project" ? "nav-link active" : "nav-link"}
         >
-          Blog
+          Projects
         </a>
       </li>
       <li className="nav-item">

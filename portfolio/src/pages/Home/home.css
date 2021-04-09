@@ -1,0 +1,11 @@
+.home{
+
+    background-image: url("../images/pexels-jim-1557238.jpg");
+    height: 100vh; 
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-size: cover;
+    position: relative;
+}

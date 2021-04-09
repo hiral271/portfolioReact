@@ -1,9 +1,9 @@
 import React, { Component } from "react";
 import NavTabs from "./NavTabs";
-import Home from "./components/pages/Home";
-import About from "./components/pages/About";
-import Blog from "./components/pages/Blog";
-import Contact from "./components/pages/Contact";
+import Home from "../pages/Home/Home";
+import About from "../pages/About/About";
+import Project from "../pages/Project/Project";
+import Contact from "../pages/Contact/Contact";
 
 class Portfolio extends Component {
   state = {
@@ -19,8 +19,8 @@ class Portfolio extends Component {
       return <Home />;
     } else if (this.state.currentPage === "About") {
       return <About />;
-    } else if (this.state.currentPage === "Blog") {
-      return <Blog />;
+    } else if (this.state.currentPage === "Project") {
+      return <Project />;
     } else {
       return <Contact />;
     }
