@@ -28,9 +28,13 @@
   padding: 40px;
 }
 #pic{
-    border-radius: 200px;
+    border-radius: 300px;
     width: 500px;
     height: 400px;
     background-image: url("./Untitled.png");
     float: right;
+    margin-right: 30px;
+}
+p{
+    margin-left: 100px;
 }

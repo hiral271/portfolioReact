@@ -27,7 +27,7 @@ const Home = () => (
     <div>
       <div>
       <div id="pic"></div>
-        <h2 id="me">SomeThings - Aboutme </h2>
+        <h2 id="me">Some Things - Aboutme </h2><p>#BornInIndia#Music Lover🎼#Reading is my power📚.</p>
         <p id="aboutme"> My name is Hiral Mohan Patel. I was born in India . thus i love
         spicy food and
         I am totally bollywood lover.
