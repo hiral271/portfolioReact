@@ -9,4 +9,5 @@
     background-size: cover;
     position: relative;
     font-size: 36px;
+    background-attachment: fixed;
 }

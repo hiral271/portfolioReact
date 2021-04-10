@@ -22,7 +22,8 @@
     text-align: center;
     /* background-position:right;
     background-image: url("../images/81-812661_free-watercolor-flower-texture-peach-watercolor-flower-png.png"); */
-       padding: 50px;
+       margin-top: 0px;
+    padding: 100px;
        display:flex; 
        align-items: center;
        font-size: 23px;
@@ -44,4 +45,7 @@
 }
 p{
     margin-left: 100px;
+}
+.container{
+    margin-top: 20px;
 }

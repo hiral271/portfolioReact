@@ -1,14 +1,42 @@
+.project{
+    background-image: url("../images/81-812661_free-watercolor-flower-texture-peach-watercolor-flower-png.png");
 
-    /* border-radius: 30px;
-    width: 500px;
-    height: 400px;
-    background-image: url("../images/dbb2129035f83c491af200bb58e257cc.jpg");
+   
+    height: 100%; 
+    display:flex;
+   width: 100%;
+   background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+   
+}
     
-    margin-right: 30px; */
-    /* display:block; */
+.container{
+   margin-top: 50px;  
+   
+}
 
-/* border-radius: 20px;
-background: url("../images/dbb2129035f83c491af200bb58e257cc.jpg") no-repeat bottom;
-width: 500px;
-height: 400px;
-} */
+
+.img-container{
+   
+    background-image: url("https://via.placeholder.com/150");
+}
+h2{
+    color: rgb(90, 90, 211);
+    padding: 10px;
+    text-align: center;
+}
+p{
+    padding: 10px;
+}
+h3{
+    color:black;
+    padding: 10px;
+    text-align: center; 
+}
+.name{
+    text-align: center;
+    padding: 60px;
+    font-size: 50px;
+    color: black;
+}
