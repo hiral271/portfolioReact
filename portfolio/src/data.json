@@ -1,0 +1,31 @@
+[
+  {
+    "Name": "Hiral .M .Patel",
+    "Education": "SpongeBob",
+    "image":
+      "https://vignette.wikia.nocookie.net/spongebobgalaxy/images/0/07/SpongeBob_SquarePants.png/revision/latest?cb=20171228024014",
+    "occupation": "Fry Cook",
+    "location": "A Pineapple Under the Sea"
+  },
+  {
+    "id": 2,
+    "name": "Mr. Krabs",
+    "information":"hello"
+  },
+  {
+    "Project": "Project 1 ",
+    "name": "MARVELS",
+    "information":"Upon opening 'Marvel Avengers Match, the user has a view of two dropdown menus which allow them to choose a hero & rival; once the user selects MATCH, they are able to view character information for both selection options. This information includes a picture, name, location, etc, which is pulled from our first API. The user also has another option, RANK, which allows the user to view which Avenger would win in a battle based on character stats pulled from our second API. "
+  },
+  {
+    "Project": "Project 2 ",
+    "name": "How to fish",
+    "information":"people knowing and not knowing about credit, financlal hacks and potential ways to increase net worth. In today's world, blogs are becoming a hub for niche information.This project will Provide you finficial guide.like Give a man a fish and you feed him for a day. Teach a man to fish and you feed him for a lifetime"
+  },
+  {
+    "Project": "Project 3 ",
+    "name": "RoadWise",
+    "information":"Contrary to popular Contrary to popular belief,  Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words,consectetur, from a Lorem Ipsum consectetur, from a Lorem Ipsumfrom a Lorem Ipsum"
+  }
+
+]

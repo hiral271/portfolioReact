@@ -1,5 +1,6 @@
 import React from "react";
 import "../Dashbord/dashbord.css"
+
 // import Project from "../Project/Project"
 // const styles = {
 //   homeStyle: {
@@ -45,8 +46,10 @@ const Home = () => (
       
     
     </div>
+ 
   </div>
-  // <Project/>
+
+ 
 );
 
 export default Home;

@@ -1,20 +1,21 @@
 import React from "react";
 
+import data from "../../data.json";
 
-const styles = {
-  contactStyle: {
-    background: "#ffb74d",
-    textAlign: "center",
-    padding: 50,
-  },
-  
+function Contact() {
+  return (
+ <div>
+
+     <p>
+    <li> Name={data[0].Name}</li>   
+        image={data[0].image}
+        occupation={data[0].occupation}
+        location={data[0].location}
+        </p>
+        
+     
+   </div>   
+  );
 }
-
-const Contact = () => (
-  <div style={styles.contactStyle} >
-    <h1>Contact Page</h1>
-   
-  </div>
-);
 
 export default Contact;

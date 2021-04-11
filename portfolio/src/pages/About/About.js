@@ -13,12 +13,9 @@ const About = () => (
   <div className="jumbotron">
 <h1 className="display-4">Hiral Mohan Patel</h1>
 <h2>Codes i am similiar with</h2>
-<ul>
-  <li>
-  <img src="" alt="Bootstrap" width="32" height="32"></img>
-  </li>
-</ul>
-<p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+<p>Results-driven Web-developer professional with certificate from Rutgers coding Bootcamp. Seeking to leverage my professional expertise within software developer 
+  company’s and transition into an effective web-developer.</p>
+
  
    
   </div>

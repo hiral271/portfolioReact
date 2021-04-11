@@ -1,6 +1,6 @@
 import React from "react";
 import "../Project/project.css"
-
+import data from "../../data.json"
 // const styles = {
 //   projectStyle:{
 //     background: "#ffeb3b",
@@ -18,48 +18,34 @@ const Project = () => (
       <div className="card-deck">
         <div className="card text-white bg-dark mb-3">
           <div className="img-container">
-            <h2>Project 1</h2>
-            <h3>MARVELS</h3>
+            <h2>{data[2].Project}</h2>
+            <h3>{data[2].name}</h3>
 
           </div>
-          <p>Contrary to popular belief,
-          Contrary to popular belief, Lorem Ipsum is not simply r
-          andom text. It has roots in a piece of classical Latin
-
-          Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words,
-               consectetur, from a Lorem Ipsum consectetur, from a Lorem Ipsum</p>
+          <p>{data[2].information}</p>
         
                <a href="https://github.com/CRenauro/Marvel-Universe" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Click here To See Project</a>
         </div>
 
         <div className="card text-white bg-dark mb-3">
           <div className="img-container">
-            <h2>Project 2</h2>
-            <h3>How to fish</h3>
+            <h2>{data[3].Project}</h2>
+            <h3>{data[3].name}</h3>
 
           </div>
-          <p>Contrary to popular belief,
-          Contrary to popular belief, Lorem Ipsum is not simply r
-          andom text. It has roots in a piece of classical Latin
-
-          Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words,
-               consectetur, from a Lorem Ipsum consectetur, from a Lorem Ipsum</p>
-               <a href="https://github.com/CRenauro/How-To-Fish" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Click here To See Project</a>
+          <p>{data[3].information}</p>
+               <a href="https://guarded-woodland-35639.herokuapp.com/" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Click here To See Project</a>
         </div>
 
         <div className="card text-white bg-dark mb-3">
           <div className="img-container">
-            <h2>Project 3</h2>
-            <h3>RoadWise</h3>
+            <h2>{data[4].Project}</h2>
+            <h3>{data[4].name}</h3>
 
           </div>
-          <p>Contrary to popular belief,
-          Contrary to popular belief, Lorem Ipsum is not simply r
-          andom text. It has roots in a piece of classical Latin
-
-          Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words,
-               consectetur, from a Lorem Ipsum consectetur, from a Lorem Ipsum</p>
+          <p>{data[4].information}</p>
                <a href="https://github.com/hiral271/roadWise-Project" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Click here To See Project</a>
+        
         </div>
 
       </div>
