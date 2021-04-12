@@ -12,6 +12,7 @@ const Footer = () => (
                 <li className="list-inline-item"><a href="#home" class="fa fa-google">  hiralm227@gmail.com</a>*</li>
             </ul>
             <p className="copyright">there is still hope in belives .... still codding....still learning....</p>
+            
         </footer>
 
         

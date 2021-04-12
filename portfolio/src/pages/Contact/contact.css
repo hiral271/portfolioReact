@@ -15,6 +15,9 @@ li{
     text-align: center;
     font-size: 25px;
 }
-a{
+li a{
     color: black;
+}
+li a:hover{
+    color:red;
 }
