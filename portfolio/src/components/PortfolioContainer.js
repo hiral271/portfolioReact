@@ -4,7 +4,7 @@ import Home from "../pages/Home/Home";
 import About from "../pages/About/About";
 import Project from "../pages/Project/Project";
 import Contact from "../pages/Contact/Contact";
-
+import Footer from "../pages/Footer/Footer"
 class Portfolio extends Component {
   state = {
     currentPage: "Home"
@@ -34,6 +34,7 @@ class Portfolio extends Component {
           handlePageChange={this.handlePageChange}
         />
         {this.renderPage()}
+        <Footer/>
       </div>
     );
   }

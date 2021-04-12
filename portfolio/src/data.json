@@ -1,11 +1,12 @@
 [
   {
     "Name": "Hiral .M .Patel",
-    "Education": "SpongeBob",
-    "image":
-      "https://vignette.wikia.nocookie.net/spongebobgalaxy/images/0/07/SpongeBob_SquarePants.png/revision/latest?cb=20171228024014",
-    "occupation": "Fry Cook",
-    "location": "A Pineapple Under the Sea"
+    "email":"hiralm227@gmail.com",
+    "github":"https://github.com/hiral271/Track-employee",
+    "linkid":"https://www.linkedin.com/in/hiral-mohan-patel-203485203/",
+    "phone":"609-955-4870",
+    "resume":"https://docs.google.com/document/d/1tNG4pk7i2sTejvFJ0fupdVWvjHxwKxVUEO0fn6Ip38c/edit?usp=sharing"
+    
   },
   {
     "id": 2,

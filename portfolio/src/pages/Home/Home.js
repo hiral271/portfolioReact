@@ -2,7 +2,9 @@ import React from "react";
 import "./home.css"
 import Dashbord from "../Dashbord/Dashbord"
 import Project from "../Project/Project";
-import Footer from "../Footer/Footer";
+
+import About from "../About/About";
+import Contact from "../Contact/Contact";
 // const styles = {
 //   homeStyle: {
 //     background: "#fccb00",
@@ -25,7 +27,8 @@ const Home = () => (
     </div>  
      <Dashbord/>
      <Project />
-     <Footer />
+    <About />
+    <Contact />
      </div>
 );
 

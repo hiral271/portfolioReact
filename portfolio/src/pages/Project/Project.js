@@ -24,7 +24,7 @@ const Project = () => (
           </div>
           <p>{data[2].information}</p>
         
-               <a href="https://github.com/CRenauro/Marvel-Universe" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Click here To See Project</a>
+               <a  target="_blank" rel="noreferrer"  href="https://github.com/CRenauro/Marvel-Universe" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Click here To See Project</a>
         </div>
 
         <div className="card text-white bg-dark mb-3">
@@ -34,7 +34,7 @@ const Project = () => (
 
           </div>
           <p>{data[3].information}</p>
-               <a href="https://guarded-woodland-35639.herokuapp.com/" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Click here To See Project</a>
+               <a  target="_blank" rel="noreferrer"  href="https://guarded-woodland-35639.herokuapp.com/" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Click here To See Project</a>
         </div>
 
         <div className="card text-white bg-dark mb-3">
@@ -44,7 +44,7 @@ const Project = () => (
 
           </div>
           <p>{data[4].information}</p>
-               <a href="https://github.com/hiral271/roadWise-Project" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Click here To See Project</a>
+               <a  target="_blank"  rel="noreferrer" href="https://floating-badlands-67396.herokuapp.com/" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Click here To See Project</a>
         
         </div>
 

@@ -1,0 +1,20 @@
+.jumbotron{
+   padding: 100px;
+    background-image: url("../images/pexels-jim-1557238.jpg");
+    width:100%;
+    height: 100%;
+    background-attachment: fixed;
+    background-size: 100%;
+    background-position: right;
+   
+}
+li{
+    list-style: none;
+    color: black;
+    justify-content: center;
+    text-align: center;
+    font-size: 25px;
+}
+a{
+    color: black;
+}

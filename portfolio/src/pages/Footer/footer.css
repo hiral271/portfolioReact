@@ -1,0 +1,32 @@
+#list{
+    background-color:#006b76;
+    
+}
+.list-inline-item a{
+    color: black;
+    display: row;
+  padding: 40px;
+  border-radius: 20px;
+  margin-left: 20px;
+  margin-top: 20px;
+  font-size: 25px;
+}
+p{
+    text-align: center;
+}
+.list-inline-item a:hover{
+color: tomato;
+}
+
+.fa-linkedin {
+    background:white;
+    color: white;
+  }
+  .fa-github{
+    background:white;
+    color: white;
+  }
+  .fa-google{
+    background:white;
+    color: white;
+  }

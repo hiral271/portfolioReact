@@ -1,23 +1,23 @@
 import React from "react";
+import "../pages/Navbar/navbar.css"
 
 
-
-const styles = {
-  navbarStyle: {
-    background: "#006b76",
-    justifyContent: "flex-end",
-    height: 63,
-    Color:"#006b76",
-    fontSize:25,
-    //#006b76
-  },
+// const styles = {
+//   navbarStyle: {
+//     background: "#006b76",
+//     justifyContent: "flex-end",
+//     height: 63,
+//     Color:"#006b76",
+//     fontSize:25,
+//     //#006b76
+//   },
   
-};
+// };
 
 
 function NavTabs(props) {
   return (
-    <nav style={styles.navbarStyle} className="navbar">
+    <nav className="navbar">
     <ul className="nav nav-tabs"
     >
       <li className="nav-item">

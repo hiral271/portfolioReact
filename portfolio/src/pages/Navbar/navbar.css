@@ -1,0 +1,18 @@
+/* background: "#006b76",
+    justifyContent: "flex-end",
+    height: 63,
+    Color:"#006b76",
+    fontSize:25, */
+
+    .navbar{
+        color: black;
+        height: 63px;
+        Color:#006b76;
+        font-size:25px;
+        background-color: #006b76;
+        justify-content:flex-end;
+    }
+    .nav-item{
+        justify-content:flex-end; 
+        color: black;
+    }
