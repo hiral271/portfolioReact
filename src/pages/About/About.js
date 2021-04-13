@@ -4,7 +4,7 @@ import "./about.css"
 
 const About = () => (
 
-    <div className="section about-section gray-bg" id="about">
+    <div className="section about-section " id="about">
         <div className="container">
             <div className="row align-items-center flex-row-reverse">
                 <div className="col-lg-6">

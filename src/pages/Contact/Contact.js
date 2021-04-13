@@ -6,7 +6,7 @@ function Contact() {
   return (
 
 <div className="jumbotron">
-<h2>{data[0].Name}</h2>
+{/* <h2>{data[0].Name}</h2> */}
   <ul>
 <h2><li>Email-Id : {data[0].email}</li></h2>   
   <li> <a  href={data[0].github} >GitHub  Link</a></li>   

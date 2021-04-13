@@ -1,42 +1,80 @@
-.project{
+ #project{
     background-image: url("../images/pexels-jim-1557238.jpg");
-
-   
-    height: 1300px; 
-    display:flex;
-   width: 100%;
+    /* height: 1300px;  */
+     display:flex; 
    background-attachment: fixed;
     background-size: cover;
     position: relative;
-   
-}
+    padding: 170px;
+   justify-content: center;
+   align-items: center;
+
+   margin: auto;
+   width: 100%;
+} 
+
+
+.flip-card {
+    background-color: transparent;
+    width: 300px;
+    height: 200px;
+    border-radius: 30px;
+    margin-top: 100px;
+    perspective: 1000px;
     
-.container{
-   margin-top: 150px;  
-   
-}
-
-
-.img-container{
-   
-    background-image: url("https://via.placeholder.com/150");
-}
-h2{
-    color: rgb(90, 90, 211);
-    padding: 10px;
+  }
+  
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
     text-align: center;
-}
-p{
-    padding: 10px;
-}
-h3{
-    color:black;
-    padding: 10px;
-    text-align: center; 
-}
-.name{
-    text-align: center;
-    padding: 60px;
-    font-size: 50px;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+  
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  
+  .flip-card-front {
+    background-color: #bbb;
     color: black;
-}
+  }
+  
+  .flip-card-back {
+    background-color:black;
+    color: white;
+    transform: rotateY(180deg);
+  }
+
+  .jumbotron{
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+
+  .card-img-top{
+
+    width: 500px;
+    height:200px;
+  }
+
+  .info{
+    font-size: 10px;
+    background-color: black;
+  }
+  .row{
+    margin: auto;
+    
+  }

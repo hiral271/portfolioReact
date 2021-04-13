@@ -4,7 +4,7 @@
         height: 63px;
         Color:#006b76;
         font-size:25px;
-        background-color: #006b76;
+        background-color: black;
         justify-content:flex-end;
         display: flex-end;
        padding: 10px;
@@ -18,7 +18,7 @@
    
  .nav-item a{
     justify-content:flex-end; 
-        color: black;
+        color: white;
         float: right; 
     }
 
@@ -32,3 +32,4 @@
     display: flex;
  
 }    
+/* #006b76 */

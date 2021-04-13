@@ -1,10 +1,11 @@
 import React from "react";
 import "./home.css"
 import Dashbord from "../Dashbord/Dashbord"
-import Project from "../Project/Project";
+import ProjectsCard from "../Project/Projects"
 
 import About from "../About/About";
 import Contact from "../Contact/Contact";
+
 // const styles = {
 //   homeStyle: {
 //     background: "#fccb00",
@@ -26,7 +27,7 @@ const Home = () => (
      
     </div>  
      <Dashbord/>
-     <Project />
+    <ProjectsCard />
     <About />
     <Contact />
      </div>

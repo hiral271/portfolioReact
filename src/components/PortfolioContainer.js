@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import NavTabs from "./NavTabs";
 import Home from "../pages/Home/Home";
 import About from "../pages/About/About";
-import Project from "../pages/Project/Project";
+import Projects from "../pages/Project/Projects"
 import Contact from "../pages/Contact/Contact";
 import Footer from "../pages/Footer/Footer"
 class Portfolio extends Component {
@@ -20,7 +20,7 @@ class Portfolio extends Component {
     } else if (this.state.currentPage === "About") {
       return <About />;
     } else if (this.state.currentPage === "Project") {
-      return <Project />;
+      return <Projects />;
     } else {
       return <Contact />;
     }

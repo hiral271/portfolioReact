@@ -1,5 +1,5 @@
 #list{
-    background-color:#006b76;
+    background-color:black;
     
 }
 .list-inline-item a{
@@ -13,20 +13,20 @@
 }
 p{
     text-align: center;
+    font-weight: bold;
 }
 .list-inline-item a:hover{
 color: tomato;
 }
 
 .fa-linkedin {
-    background:white;
+    /* background:white; */
+    font-size: 30px;
     color: white;
   }
   .fa-github{
-    background:white;
+    font-size: 30px;
     color: white;
+    padding: 20px;
   }
-  .fa-google{
-    background:white;
-    color: white;
-  }
+  

@@ -10,13 +10,15 @@
   },
   {
     "id": 2,
-    "name": "Mr. Krabs",
+    "image": "name",
     "information":"hello"
   },
   {
     "Project": "Project 1 ",
     "name": "MARVELS",
-    "information":"Upon opening 'Marvel Avengers Match, the user has a view of two dropdown menus which allow them to choose a hero & rival; once the user selects MATCH, they are able to view character information for both selection options. This information includes a picture, name, location, etc, which is pulled from our first API. The user also has another option, RANK, which allows the user to view which Avenger would win in a battle based on character stats pulled from our second API. "
+    "information":"'Marvel Avengers Match, choose a hero & rival; once the user selects MATCH,view character information, includes a picture, name, location, etc, which is pulled from our first API. RANK, which allows the user to view which Avenger would win in a battle based on character stats pulled from our second API. ",
+    "image":"https://p8.f1.n0.cdn.getcloudapp.com/items/o0u6m1Ko/19c3efeb-7b3a-4c30-b6c2-0e5e780e2773.jpeg?source=viewer&v=71c080d6e21ffa3258ab7b60c07134fc",
+     "link":"https://guarded-woodland-35639.herokuapp.com/"
   },
   {
     "Project": "Project 2 ",
@@ -28,5 +30,6 @@
     "name": "RoadWise",
     "information":"Contrary to popular Contrary to popular belief,  Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words,consectetur, from a Lorem Ipsum consectetur, from a Lorem Ipsumfrom a Lorem Ipsum"
   }
+
 
 ]
