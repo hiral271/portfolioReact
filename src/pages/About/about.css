@@ -130,3 +130,76 @@ mark {
     margin-top: 10px;
 }
 
+#boxs1 {transition-timing-function: linear;}
+#boxs2 {transition-timing-function: ease;}
+#boxs3 {transition-timing-function: ease-in;}
+#boxs4 {transition-timing-function: ease-out;}
+#boxs5 {transition-timing-function: ease-in-out;}
+
+#boxs1:hover {
+  width: 300px;
+}
+#boxs1{
+  width: 100px;
+  height: 60px;
+  background:black;
+  transition: width 2s;
+  border-radius: 25px;
+}
+#boxs2{
+  width: 100px;
+  height: 60px;
+  background:black;
+  transition: width 2s;
+  border-radius: 20px;
+
+}
+#boxs3{
+  width: 100px;
+  height: 60px;
+  background:black;
+  transition: width 2s;
+  border-radius: 20px;
+}
+#boxs4{
+ 
+  width: 100px;
+  height: 60px;
+  background:black;
+  transition: width 2s;
+  border-radius: 20px;
+}
+#boxs5{
+ 
+  width: 100px;
+  height: 60px;
+  background:black;
+  transition: width 2s;
+  border-radius: 20px;
+}
+#boxs2:hover {
+  width: 300px;
+}
+#boxs3:hover {
+  width: 300px;
+}
+#boxs4:hover {
+  width: 300px;
+}
+#boxs5:hover {
+  width: 300px;
+}
+#js{
+  height: 60px;
+  width: 60px;
+}
+#mysql{
+  height: 60px;
+  width: 60px;
+ 
+}
+#html{
+  height: 60px;
+  width: 60px;
+  padding: 5px;
+}

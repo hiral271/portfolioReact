@@ -1,6 +1,6 @@
 import React from "react";
 import "./about.css"
-
+import data from "../../data.json"
 
 const About = () => (
 
@@ -71,15 +71,32 @@ const About = () => (
                 </div>
             </div>
 
-          <br></br>
-            <div className="counter">
-                <div className="row">
+            <br></br>
+            <div>
+                <div id="boxs1">
+                <img id="js" src={data[8].link}></img>
+
+                </div><br></br>
+                   
+                   
+                    <div id="boxs2">
+                    <img id="mysql" src={data[9].link}></img>
+
+
+                    </div><br></br>
                     
+                        <div id="boxs3">
+                        <img id="html" src={data[10].link}></img>
+                        </div><br></br>
+                           
+                            <div id="boxs4">ease-out</div><br></br>
+                                <div id="boxs5">ease-in-out</div><br></br>
+ 
                 </div>
             </div>
         </div>
 
-    </div>
+   
 
 );
 

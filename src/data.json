@@ -17,18 +17,55 @@
     "Project": "Project 1 ",
     "name": "MARVELS",
     "information":"'Marvel Avengers Match, choose a hero & rival; once the user selects MATCH,view character information, includes a picture, name, location, etc, which is pulled from our first API. RANK, which allows the user to view which Avenger would win in a battle based on character stats pulled from our second API. ",
-    "image":"https://p8.f1.n0.cdn.getcloudapp.com/items/o0u6m1Ko/19c3efeb-7b3a-4c30-b6c2-0e5e780e2773.jpeg?source=viewer&v=71c080d6e21ffa3258ab7b60c07134fc",
-     "link":"https://guarded-woodland-35639.herokuapp.com/"
+    "image":"https://github.com/CRenauro/Marvel-Universe/blob/main/assets/img/532651.jpg?raw=true",
+     "link":"https://github.com/CRenauro/Marvel-Universe"
   },
   {
     "Project": "Project 2 ",
     "name": "How to fish",
-    "information":"people knowing and not knowing about credit, financlal hacks and potential ways to increase net worth. In today's world, blogs are becoming a hub for niche information.This project will Provide you finficial guide.like Give a man a fish and you feed him for a day. Teach a man to fish and you feed him for a lifetime"
+    "information":"people knowing and not knowing about credit, financlal hacks and potential ways to increase net worth. In today's world, blogs are becoming a hub for niche information.This project will Provide you finficial guide.like Give a man a fish and you feed him for a day. Teach a man to fish and you feed him for a lifetime",
+    "image":"https://p8.f1.n0.cdn.getcloudapp.com/items/rRuG0lAN/291596fa-2c2b-4d64-8819-0dfa4510c8d0.jpeg?source=viewer&v=7e49c5023855c90276c3efe9385edb53",
+    "link":"https://guarded-woodland-35639.herokuapp.com/"
   },
   {
     "Project": "Project 3 ",
     "name": "RoadWise",
-    "information":"Contrary to popular Contrary to popular belief,  Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words,consectetur, from a Lorem Ipsum consectetur, from a Lorem Ipsumfrom a Lorem Ipsum"
+    "information":"Contrary to popular Contrary to popular belief,  Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words,consectetur, from a Lorem Ipsum consectetur, from a Lorem Ipsumfrom a Lorem Ipsum",
+    "image":"https://d6pdqlw297isz.cloudfront.net/i/o0u6m1Ko/350x105/p8.f1.n0.cdn.getcloudapp.com/items/o0u6m1Ko/19c3efeb-7b3a-4c30-b6c2-0e5e780e2773.jpeg?source=thumbnail&v=71c080d6e21ffa3258ab7b60c07134fc",
+    "link":"https://floating-badlands-67396.herokuapp.com/"
+  },
+  {
+    "Project": "Day-Planer ",
+    "name": "Day-Planer",
+    "information":"Contrary to popular Contrary to popular belief,  Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words,consectetur, from a Lorem Ipsum consectetur, from a Lorem Ipsumfrom a Lorem Ipsum",
+    "image":"https://github.com/hiral271/Day-planer/raw/main/Image-2021-04-10-at-10.45.42-PM.jpeg",
+    "link":"https://hiral271.github.io/Day-planer/"
+  },
+  {
+    "Project": "password -Generator",
+    "name": "password -Generator",
+    "information":"Contrary to popular Contrary to popular belief,  Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words,consectetur, from a Lorem Ipsum consectetur, from a Lorem Ipsumfrom a Lorem Ipsum",
+    "image":"https://p8.f1.n0.cdn.getcloudapp.com/items/GGuQ2rNq/8e4860c4-9860-44df-a2be-4eacd169c20f.jpeg?source=viewer&v=6866b507d624e68789a87b76a0241a36",
+    "link":"https://hiral271.github.io/Generate-password/"
+  },
+  {
+    "Project": "Fitness-Tracker",
+    "name": "Fitness-Tracker",
+    "information":"Contrary to popular Contrary to popular belief,  Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words,consectetur, from a Lorem Ipsum consectetur, from a Lorem Ipsumfrom a Lorem Ipsum",
+    "image":"https://github.com/hiral271/Fitness-app/raw/main/images/Image-2021-04-06-at-9.41.10-PM.jpeg",
+    "link":"https://fitness-tracker-app-hp.herokuapp.com/?id=606d149dd97cf00015cdb8fe"
+  },
+  {
+    
+    "link":"https://cdn2.iconfinder.com/data/icons/designer-skills/128/code-programming-javascript-software-develop-command-language-256.png"
+  },
+  {
+    
+    "link":"https://cdn2.iconfinder.com/data/icons/web-development-17/64/seo_web_development_mysql-128.png"
+  },
+  {
+    
+    "link":"https://cdn4.iconfinder.com/data/icons/social-media-logos-6/512/121-css3-256.png"
   }
 
 

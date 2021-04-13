@@ -36,17 +36,17 @@ const ProjectsCard = () => (
         <div className="flip-card-inner">
           <div className="flip-card-front">
             <div class="card" >
-              <img class="card-img-top" src={data[2].image} alt="Card image cap"></img>
+              <img class="card-img-top" src={data[3].image} alt="Card image cap"></img>
               <div class="card-body">
-                <h5 class="card-title">{data[2].Project}</h5>
+                <h5 class="card-title">{data[3].Project}</h5>
               </div>
             </div>
           </div>
           <div className="flip-card-back">
-            <h1>{data[2].name}</h1>
+            <h1>{data[3].name}</h1>
      
            
-            <a  target="_blank"href={data[2].link} class="btn btn-secondary btn-lg btn-block">Click here to see Project </a>
+            <a  target="_blank"href={data[3].link} class="btn btn-secondary btn-lg btn-block">Click here to see Project </a>
           </div>
         </div>
       </div>
@@ -60,17 +60,17 @@ const ProjectsCard = () => (
         <div className="flip-card-inner">
           <div className="flip-card-front">
             <div class="card" >
-              <img class="card-img-top" src={data[2].image} alt="Card image cap"></img>
+              <img class="card-img-top" src={data[4].image} alt="Card image cap"></img>
               <div class="card-body">
-                <h5 class="card-title">{data[2].Project}</h5>
+                <h5 class="card-title">{data[4].Project}</h5>
               </div>
             </div>
           </div>
           <div className="flip-card-back">
-            <h1>{data[2].name}</h1>
+            <h1>{data[4].name}</h1>
             
            
-            <a  target="_blank"href={data[2].link} class="btn btn-secondary btn-lg btn-block">Click here to see Project </a>
+            <a  target="_blank"href={data[4].link} class="btn btn-secondary btn-lg btn-block">Click here to see Project </a>
           </div>
         </div>
       </div>
@@ -86,17 +86,17 @@ const ProjectsCard = () => (
         <div className="flip-card-inner">
           <div className="flip-card-front">
             <div class="card" >
-              <img class="card-img-top" src={data[2].image} alt="Card image cap"></img>
+              <img class="card-img-top" src={data[5].image} alt="Card image cap"></img>
               <div class="card-body">
-                <h5 class="card-title">{data[2].Project}</h5>
+                <h5 class="card-title">{data[5].Project}</h5>
               </div>
             </div>
           </div>
           <div className="flip-card-back">
-            <h1>{data[2].name}</h1>
+            <h1>{data[5].name}</h1>
       
            
-            <a  target="_blank"href={data[2].link} class="btn btn-secondary btn-lg btn-block">Click here to see Project </a>
+            <a  target="_blank"href={data[5].link} class="btn btn-secondary btn-lg btn-block">Click here to see Project </a>
           </div>
         </div>
       </div>
@@ -108,17 +108,17 @@ const ProjectsCard = () => (
         <div className="flip-card-inner">
           <div className="flip-card-front">
             <div class="card" >
-              <img class="card-img-top" src={data[2].image} alt="Card image cap"></img>
+              <img class="card-img-top" src={data[6].image} alt="Card image cap"></img>
               <div class="card-body">
-                <h5 class="card-title">{data[2].Project}</h5>
+                <h5 class="card-title">{data[6].Project}</h5>
               </div>
             </div>
           </div>
           <div className="flip-card-back">
-            <h1>{data[2].name}</h1>
+            <h1>{data[6].name}</h1>
             
            
-            <a  target="_blank"href={data[2].link} class="btn btn-secondary btn-lg btn-block">Click here to see Project </a>
+            <a  target="_blank"href={data[6].link} class="btn btn-secondary btn-lg btn-block">Click here to see Project </a>
           </div>
         </div>
       </div>
@@ -132,17 +132,17 @@ const ProjectsCard = () => (
         <div className="flip-card-inner">
           <div className="flip-card-front">
             <div class="card" >
-              <img class="card-img-top" src={data[2].image} alt="Card image cap"></img>
+              <img class="card-img-top" src={data[7].image} alt="Card image cap"></img>
               <div class="card-body">
-                <h5 class="card-title">{data[2].Project}</h5>
+                <h5 class="card-title">{data[7].Project}</h5>
               </div>
             </div>
           </div>
           <div className="flip-card-back">
-            <h1>{data[2].name}</h1>
+            <h1>{data[7].name}</h1>
          
            
-            <a  target="_blank"href={data[2].link} class="btn btn-secondary btn-lg btn-block">Click here to see Project </a>
+            <a  target="_blank"href={data[7].link} class="btn btn-secondary btn-lg btn-block">Click here to see Project </a>
           </div>
         </div>
       </div>
