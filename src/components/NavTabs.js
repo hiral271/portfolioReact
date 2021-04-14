@@ -1,63 +1,50 @@
 import React from "react";
-import "../pages/Navbar/navbar.css"
+import "../components/navbar.css"
+import { Link, useLocation } from "react-router-dom";
+// import Footer from "../pages/Footer/Footer"
 
 
-// const styles = {
-//   navbarStyle: {
-//     background: "#006b76",
-//     justifyContent: "flex-end",
-//     height: 63,
-//     Color:"#006b76",
-//     fontSize:25,
-//     //#006b76
-//   },
-  
-// };
+function NavTabs() {
+ 
+  // This allows the component to check the route any time the user uses a link to navigate.
+  const location = useLocation();
 
-
-function NavTabs(props) {
   return (
-    <nav className="navbar">
-    <ul className="nav nav-tabs"
-    >
+    <div id="navbar">
+    <ul className="nav nav-tabs">
       <li className="nav-item">
-        <a
-          href="#home"
-          onClick={() => props.handlePageChange("Home")}
-          className={props.currentPage === "Home" ? "nav-link active" : "nav-link"}
-        >
+        <Link to="/" className={location.pathname === "/" ? "nav-link active" : "nav-link"}>
           Home
-        </a>
+        </Link>
       </li>
       <li className="nav-item">
-        <a
-          href="#about"
-          onClick={() => props.handlePageChange("About")}
-          className={props.currentPage === "About" ? "nav-link active" : "nav-link"}
+        <Link
+          to="/about"
+          className={location.pathname === "/about" ? "nav-link active" : "nav-link"}
         >
           About
-        </a>
+        </Link>
       </li>
       <li className="nav-item">
-        <a
-          href="#Project"
-          onClick={() => props.handlePageChange("Project")}
-          className={props.currentPage === "Project" ? "nav-link active" : "nav-link"}
+        <Link
+          to="/Projects"
+          className={location.pathname === "/Projects" ? "nav-link active" : "nav-link"}
         >
-          Projects
-        </a>
+         Projects
+        </Link>
       </li>
       <li className="nav-item">
-        <a
-          href="#contact"
-          onClick={() => props.handlePageChange("Contact")}
-          className={props.currentPage === "Contact" ? "nav-link active" : "nav-link"}
+        <Link
+          to="/contact"
+          className={location.pathname === "/contact" ? "nav-link active" : "nav-link"}
         >
           Contact
-        </a>
+        </Link>
       </li>
+      
     </ul>
-    </nav>
+    </div>
+   
   );
 }
 
