@@ -145,6 +145,7 @@ mark {
   background:black;
   transition: width 2s;
   border-radius: 25px;
+  
 }
 #boxs2{
   width: 100px;
@@ -189,11 +190,12 @@ mark {
 #boxs5:hover {
   width: 300px;
 }
-#js{
+#js, #mysql , #html ,#react , #bootstrap , #css {
   height: 60px;
   width: 60px;
+  padding: 5px;
 }
-#mysql{
+/* #mysql{
   height: 60px;
   width: 60px;
  
@@ -203,3 +205,18 @@ mark {
   width: 60px;
   padding: 5px;
 }
+#react{
+  height: 60px;
+  width: 60px;
+  padding: 5px;
+}
+#bootstrap{
+  height: 60px;
+  width: 60px;
+  padding: 5px;
+}
+#css{
+  height: 60px;
+  width: 60px;
+  padding: 5px;
+} */

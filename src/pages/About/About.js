@@ -72,31 +72,51 @@ const About = () => (
             </div>
 
             <br></br>
-            <div>
-                <div id="boxs1">
-                <img id="js" src={data[8].link}></img>
+            <div class="container">
+                <div className="row">
 
-                </div><br></br>
-                   
-                   
-                    <div id="boxs2">
-                    <img id="mysql" src={data[9].link}></img>
-
-
-                    </div><br></br>
-                    
-                        <div id="boxs3">
-                        <img id="html" src={data[10].link}></img>
-                        </div><br></br>
+                    <div className="col-6">
+                        <div id="boxs1">
+                            <img id="js" src={data[8].link}>
                            
-                            <div id="boxs4">ease-out</div><br></br>
-                                <div id="boxs5">ease-in-out</div><br></br>
- 
+                            </img>
+                        <p> 80 </p>
+                        </div><br></br>
+
+
+                        <div id="boxs2">
+                            <img id="mysql" src={data[9].link}></img>
+
+
+                        </div><br></br>
+
+                        <div id="boxs3">
+                            <img id="html" src={data[10].link}></img>
+                        </div><br></br>
+
+                        <div id="boxs4">
+                            <img id="react" src={data[11].link}></img>
+                        </div><br></br>
+                        
+                        <div id="boxs5">
+                        <img id="bootstrap" src={data[12].link}></img>
+                            </div><br></br>
+                    </div>
+
+               
+
+                <div className="col-6" >
+                    <div id="boxs1">
+                        <img id="css" src={data[13].link}></img>
+
+                    </div><br></br>  
                 </div>
             </div>
+            </div>
         </div>
+    </div>
 
-   
+
 
 );
 

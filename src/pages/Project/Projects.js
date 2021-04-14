@@ -1,5 +1,5 @@
 import React from "react";
-import { propTypes } from "react-bootstrap/esm/Image";
+
 import data from "../../data.json"
 import "../Project/project.css"
 
