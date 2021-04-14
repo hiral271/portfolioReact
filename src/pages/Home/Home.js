@@ -2,7 +2,7 @@ import React from "react";
 import "./home.css"
 import Dashbord from "../Dashbord/Dashbord"
 import ProjectsCard from "../Project/Projects"
-
+import Footer from "../Footer/Footer"
 import About from "../About/About";
 import Contact from "../Contact/Contact";
 
@@ -30,6 +30,7 @@ const Home = () => (
     <ProjectsCard />
     <About />
     <Contact />
+    <Footer/>
      </div>
 );
 

@@ -1,7 +1,7 @@
 import React from "react";
 import "./about.css"
 import data from "../../data.json"
-
+//  import Footer from "../Footer/Footer"
 const About = () => (
 
     <div className="section about-section " id="about">
@@ -114,8 +114,12 @@ const About = () => (
             </div>
             </div>
         </div>
+<<<<<<< HEAD
     </div>
 
+=======
+       
+>>>>>>> 5a5a1b0e1c9b2f25f19a1c95eef56f449cdcd1fa
 
 
 );
