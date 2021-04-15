@@ -1,6 +1,6 @@
 .Dashbord{
     
-    height: 80vh; 
+    height: 40vh; 
     display:flex;
     justify-content: center;
     align-items: center;
@@ -23,7 +23,7 @@
     /* background-position:right;
     background-image: url("../images/81-812661_free-watercolor-flower-texture-peach-watercolor-flower-png.png"); */
        margin-top: 0px;
-    padding: 100px;
+    padding: 80px;
        display:flex; 
        align-items: center;
        font-size: 23px;

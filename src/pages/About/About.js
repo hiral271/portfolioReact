@@ -73,53 +73,53 @@ const About = () => (
 
             <br></br>
             <div class="container">
+                <h2>I love to Work on </h2>
                 <div className="row">
 
-                    <div className="col-6">
-                        <div id="boxs1">
-                            <img id="js" src={data[8].link}>
-                           
-                            </img>
-                        <p> 80 </p>
-                        </div><br></br>
 
-
-                        <div id="boxs2">
-                            <img id="mysql" src={data[9].link}></img>
-
-
-                        </div><br></br>
-
-                        <div id="boxs3">
-                            <img id="html" src={data[10].link}></img>
-                        </div><br></br>
-
-                        <div id="boxs4">
-                            <img id="react" src={data[11].link}></img>
-                        </div><br></br>
-                        
-                        <div id="boxs5">
-                        <img id="bootstrap" src={data[12].link}></img>
-                            </div><br></br>
-                    </div>
-
-               
-
-                <div className="col-6" >
                     <div id="boxs1">
-                        <img id="css" src={data[13].link}></img>
+                        <img id="js" src={data[8].link}>
 
-                    </div><br></br>  
+                        </img>
+                    </div><br></br>
+
+
+                    <div id="boxs2">
+                        <img id="mysql" src={data[9].link}></img>
+
+
+                    </div><br></br>
+
+                    <div id="boxs3">
+                        <img id="html" src={data[10].link}></img>
+                    </div><br></br>
+
+
+
+                    <div id="boxs6">
+                        <img id="css" src={data[13].link}></img>
+                    </div><br></br>
+
+                    <div id="boxs4">
+                        <img id="react" src={data[11].link}></img>
+                    </div><br></br>
+
+                    <div id="boxs5">
+                        <img id="bootstrap" src={data[12].link}></img>
+                    </div><br></br>
+
                 </div>
-            </div>
+
+
+
+
+
+
+
             </div>
         </div>
-<<<<<<< HEAD
     </div>
 
-=======
-       
->>>>>>> 5a5a1b0e1c9b2f25f19a1c95eef56f449cdcd1fa
 
 
 );

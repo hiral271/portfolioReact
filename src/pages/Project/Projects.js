@@ -6,9 +6,11 @@ import "../Project/project.css"
 
 const ProjectsCard = () => (
   <div id="project">
+   
     <div className="jumbotron">
+    <h2 id="border">Wanna see my Work Flip this Cards</h2>
     <div class="row">
-      <div className="row">
+     
       <div class="col"> 
       <div className="flip-card">
         <div className="flip-card-inner">
@@ -153,7 +155,7 @@ const ProjectsCard = () => (
 
 
     </div>
-  </div>
+
 
 )
 
