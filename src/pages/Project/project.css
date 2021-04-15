@@ -5,14 +5,18 @@
    background-attachment: fixed;
     background-size: cover;
     position: relative;
-    padding: 170px;
+    padding: 70px;
    justify-content: center;
    align-items: center;
-
-   margin: 0 0 auto;
-   width: 100%;
+ 
+   
+   /* width: 100%; */
 } 
-
+#cool{
+  padding: 40px;
+  width: 60%;
+  margin-bottom: 30px;
+}
 
 .flip-card {
     background-color: transparent;
@@ -81,5 +85,3 @@
    align-items: center;
    color: #1a237e;
  }
-
-  

@@ -17,6 +17,7 @@ class ContainerInfo extends Component {
       return <Home />;
     } else if (this.state.currentPage === "About") {
       return <About />;
+  
     } else if (this.state.currentPage === "Project") {
       return <Projects />;
     } else {
@@ -32,7 +33,7 @@ class ContainerInfo extends Component {
           handlePageChange={this.handlePageChange}
         />
         {this.renderPage()}
-      
+   
       </div>
     );
   }

@@ -1,7 +1,7 @@
 import React from "react";
 import "./about.css"
 import data from "../../data.json"
-//  import Footer from "../Footer/Footer"
+ import Footer from "../Footer/Footer"
 const About = () => (
 
     <div className="section about-section " id="about">
@@ -73,7 +73,7 @@ const About = () => (
 
             <br></br>
             <div class="container">
-                <h2>I love to Work on </h2>
+                <h2>Expertise </h2>
                 <div className="row">
 
 

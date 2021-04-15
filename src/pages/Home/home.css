@@ -1,7 +1,7 @@
 .home{
 
     background-image: url("../images/pexels-jim-1557238.jpg");
-    height: 90vh; 
+    height: 80vh; 
     display:flex;
     justify-content: center;
     align-items: center;

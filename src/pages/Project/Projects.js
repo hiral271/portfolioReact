@@ -7,7 +7,7 @@ import "../Project/project.css"
 const ProjectsCard = () => (
   <div id="project">
    
-    <div className="jumbotron">
+    <div className="jumbotron" id="cool">
     <h2 id="border">Wanna see my Work Flip this Cards</h2>
     <div class="row">
      

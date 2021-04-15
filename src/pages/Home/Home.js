@@ -6,6 +6,8 @@ import Footer from "../Footer/Footer"
 import About from "../About/About";
 import Contact from "../Contact/Contact";
 
+
+
 // const styles = {
 //   homeStyle: {
 //     background: "#fccb00",
@@ -27,10 +29,12 @@ const Home = () => (
      
     </div>  
      <Dashbord/>
-    <ProjectsCard />
+     <ProjectsCard /> 
+    
     <About />
     <Contact />
     <Footer/>
+   
      </div>
 );
 
