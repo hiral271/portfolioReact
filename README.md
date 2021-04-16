@@ -5,9 +5,26 @@ https://portfolio-react-hp.herokuapp.com/
 
 
 
+![](https://github.com/hiral271/portfolioReact/blob/main/view/React%20App.gif)
+
+
+
+
+## Depedencies
+
+* bootstrap
+* bootstrap-icons
+* react-bootstrap
+* react-dom
+* react-router
+* react-router-dom
+* react-scripts
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
 
 ## Available Scripts
 
