@@ -33,7 +33,7 @@ const ModalExample = (props) => {
 
         </ModalBody>
         <ModalFooter>
-        <Button color="primary" onClick={toggle} target="_blank" href="#about" > About Me
+        <Button color="primary" onClick={toggle} target="_blank" href="/about" > About Me
        
         </Button>{' '}
           <Button color="secondary" onClick={toggle}>Cancel</Button>
