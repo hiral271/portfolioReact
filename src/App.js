@@ -5,6 +5,7 @@ import About from "./pages/About/About";
 import Projects from "./pages/Project/Projects"
 import Contact from "./pages/Contact/Contact";
 import NavTabs from "../src/components/NavTabs"
+import Footer from "./pages/Footer/Footer"
 
 const App = () => {
 return(
@@ -16,6 +17,7 @@ return(
         <Route exact path="/Projects" component={Projects} />
         <Route path="/contact" component={Contact} />
       </div>
+      <Footer />
     </Router>
 )
 

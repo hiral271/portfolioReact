@@ -1,4 +1,4 @@
-import React from "react";
+import React ,{useState}from "react";
 import "../Contact/contact.css"
 import ModalExample from "../Contact/ConatactButton/Button"
 import {
@@ -8,14 +8,21 @@ import {
     FormGroup,
     Label,
     Input,
-    Button
+    Button,
+  
     
 } from 'reactstrap';
 
-import data from "../../data.json";
 
-
-function Contact() {
+const  Contact=() =>{
+  const[img,setImg]=useState("")
+ const inputEvent = (event)=>{
+   const data = event.target.value;
+   console.log(data)
+   setImg(data)
+ }
+   
+ 
   return (
 
 <Jumbotron className="ContactForm">
@@ -23,23 +30,28 @@ function Contact() {
 
             
 <Form className="form">
-    <h2>Contact Me </h2>
+    <h1>Contact Me </h1>
     <Col>
     
         <FormGroup>
       
-            <Label>Email</Label>
+            <Label>Email :</Label>
             <Input
                 type="email"
                 name="email"
                 id="exampleEmail"
                 placeholder="myemail@email.com"
+                value={img}
+                onChange={inputEvent}
             />
         </FormGroup>
     </Col>
     <Col>
         <FormGroup>
-            <Label for="exampleText">Text Area</Label>
+            <Label for="exampleText"
+            
+            
+            >Comments : </Label>
             <Input type="textarea" name="text" id="exampleText" />
         </FormGroup>
     </Col>

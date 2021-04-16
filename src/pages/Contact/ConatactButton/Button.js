@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import { Button, Modal, ModalHeader, ModalBody, ModalFooter } from 'reactstrap';
+import { Button, Modal, ModalHeader, ModalBody, ModalFooter,ListGroup, ListGroupItem } from 'reactstrap';
+
 
 const ModalExample = (props) => {
   const {
@@ -13,15 +14,26 @@ const ModalExample = (props) => {
 
   return (
     <div>
-      <Button color="danger" onClick={toggle} size="lg" >Click me </Button>
+      <Button color="danger" onClick={toggle} size="lg" >Contact Information</Button>
       <Modal isOpen={modal} fade={false} toggle={toggle} className={className}>
-        <ModalHeader toggle={toggle}>Modal title</ModalHeader>
+        <ModalHeader toggle={toggle}><span role="img" aria-label="sheep">👌</span></ModalHeader>
         <ModalBody>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        <div>
+      <h3>Hiral Mohan Patel </h3>
+      <p>you can find  <strong> <code>me  </code> here</strong>.</p>
+      <ListGroup>
+        <ListGroupItem active tag="a" href="https://hiral271.github.io/Day-planer/" action>GitHub</ListGroupItem>
+        <ListGroupItem tag="a" href="https://www.linkedin.com/in/hiral-mohan-patel-203485203/" action>LinkId  Link</ListGroupItem>
+        <ListGroupItem tag="a" href="https://docs.google.com/document/d/1tNG4pk7i2sTejvFJ0fupdVWvjHxwKxVUEO0fn6Ip38c/edit?usp=sharing" action>Resume-Link </ListGroupItem>
+        <ListGroupItem >Phone: 609-955-4870</ListGroupItem>
+      </ListGroup>
+      <p />
+      
+    </div>
 
         </ModalBody>
         <ModalFooter>
-        <Button color="primary" onClick={toggle} target="_blank" href="https://hiral271.github.io/Day-planer/" >Do Something
+        <Button color="primary" onClick={toggle} target="_blank" href="#about" > About Me
        
         </Button>{' '}
           <Button color="secondary" onClick={toggle}>Cancel</Button>
