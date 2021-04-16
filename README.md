@@ -9,6 +9,17 @@ https://portfolio-react-hp.herokuapp.com/
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Depedencies
+
+* bootstrap
+* bootstrap-icons
+* react-bootstrap
+* react-dom
+* react-router
+* react-router-dom
+* react-scripts
+
+
 ## Available Scripts
 
 In the project directory, you can run:
