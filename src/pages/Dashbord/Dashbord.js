@@ -31,15 +31,15 @@ const Home = () => (
     
      <p >#BornInIndia#Music Lover🎼#Reading is my power📚.</p>
         <p class="aboutme">
-           My name is Hiral Mohan Patel. I was born in India . 
-        my life took sharp turn and i landed in USA. life is been roller coster and i won GED
-        over it.
-        Working as Pacakge-handler life was always though .To find something challenging and
+           My name is Hiral Mohan Patel. I was born in India. 
+        My life took sharp turn when I came to United state of America in 2019. I learned that life is a roller coster and
+        there are sharp turns around each corner.
+        Working as Pacakge-handler life was though. To find better opportunity and something
         creating i found
         coding bootcamp.
-        so coding classes was my next stop .
-         My abitions choose front desk job to learn  interpersonal communication.
-                Never stop learning and  Never give up is my Mantra.</p>                        
+        so coding classes was my next avalanche.
+         My ambitions choose front desk job to learn interpersonal communication.
+                Never stop learning and never give up is my Mantra.</p>                        
                                                
                      
       

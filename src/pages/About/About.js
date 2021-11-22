@@ -10,7 +10,7 @@ const About = () => (
                 <div className="col-lg-6">
                     <div className="about-text go-to">
                         <h3 className="dark-color">About Me</h3>
-                        <h6 className="theme-color lead">Web-Devloper &amp; Package-Handler</h6>
+                        <h6 className="theme-color lead">Web-Devloper </h6>
                         <p>Results-driven Web-developer professional with certificate from Rutgers coding Bootcamp. Seeking to leverage my professional expertise within software developer company’s and transition into an effective web-developer.</p>
                         <div className="row about-list">
                             <div className="col-md-6">
