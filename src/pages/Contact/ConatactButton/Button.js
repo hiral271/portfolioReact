@@ -24,7 +24,7 @@ const ModalExample = (props) => {
       <ListGroup>
         <ListGroupItem active tag="a" href="https://hiral271.github.io/Day-planer/" action>GitHub</ListGroupItem>
         <ListGroupItem tag="a" href="https://www.linkedin.com/in/hiral-mohan-patel-203485203/" action>LinkId  Link</ListGroupItem>
-        <ListGroupItem tag="a" href="https://docs.google.com/document/d/1tNG4pk7i2sTejvFJ0fupdVWvjHxwKxVUEO0fn6Ip38c/edit?usp=sharing" action>Resume-Link </ListGroupItem>
+        <ListGroupItem tag="a" href="https://docs.google.com/document/d/1wLeclfn0W0U1L16kTMKDv_mXKndFjPrh/edit" action>Resume-Link </ListGroupItem>
         <ListGroupItem >Phone: 609-955-4870</ListGroupItem>
       </ListGroup>
       <p />
